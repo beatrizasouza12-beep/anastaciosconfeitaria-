@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atendimento | Anastacio's Confeitaria</title>
+
+    <link rel="stylesheet" href="styleChatBot.css">
+    <script src="scriptChat.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <section class="chatbot">
+
+            <header class="cabecalho">
+                <div class="logo">🍰</div>
+
+                <h1>Anastacio's Confeitaria</h1>
+                <p>Transformando açúcar em amor</p>
+
+                <span class="status">● Atendimento virtual</span>
+
+                <nav class="menu">
+                    <a href="index.html">Início</a>
+                    <a href="sobre.html">Sobre nós</a>
+                    <a href="atendimento.html">Atendimento</a>
+                </nav>
+            </header>
+
+            <div class="conteudo">
+
+                <div class="boas-vindas">
+                    <h2>Olá! Seja bem-vindo(a)! 💗</h2>
+                    <p>
+                        Sou a assistente virtual da Anastacio's
+                        Confeitaria. Como posso adoçar seu dia?
+                    </p>
+                </div>
+
+                <label for="apiKey">Chave da API</label>
+
+                <input
+                    type="password"
+                    id="apiKey"
+                    placeholder="Insira sua chave da API"
+                    autocomplete="off"
+                >
+
+                <label for="mensagem">Digite sua mensagem</label>
+
+                <textarea
+                    id="mensagem"
+                    placeholder="Ex.: Quais doces vocês oferecem?"
+                    rows="4"
+                ></textarea>
+
+                <button id="btnEnviar" type="button">
+                    Enviar mensagem 💗
+                </button>
+
+                <div class="resposta">
+                    <h2>Atendimento</h2>
+
+                    <div id="resposta">
+                        Aqui aparecerá a resposta da nossa assistente.
+                    </div>
+                </div>
+
+            </div>
+
+            <footer>
+                Anastacio's Confeitaria © 2026
+            </footer>
+
+        </section>
+    </main>
+
+</body>
+</html>

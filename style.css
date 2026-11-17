@@ -1,0 +1,224 @@
+/* Configuração geral */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7f5;
+    color: #4b261c;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #542719;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.slogan {
+    color: #ffd6df;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Menu de navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #d95f83;
+}
+
+/* Conteúdo das páginas */
+.boas-vindas,
+.conteudo {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(84, 39, 25, 0.10);
+}
+
+h2 {
+    color: #a34461;
+    margin-top: 28px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.destaque {
+    color: #d95f83;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Logotipo */
+.logo {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+/* Foto de doces */
+.foto-doce {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* Lista de valores */
+.lista-valores {
+    display: inline-block;
+    max-width: 100%;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.lista-valores li {
+    margin-bottom: 10px;
+}
+
+/* Botões */
+.botao {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 24px;
+    background-color: #d95f83;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #a34461;
+}
+
+/* Rodapé */
+footer {
+    background-color: #542719;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px;
+    overflow-wrap: anywhere;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .boas-vindas,
+    .conteudo {
+        margin: 20px 12px;
+        padding: 20px 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+
+    nav a {
+        margin: 4px;
+    }
+}.producao {
+    text-align: center;
+    padding: 30px 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fff0f2;
+    border-radius: 15px;
+}
+
+.imagem-confeitaria {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.foto-confeitaria {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #713d43;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    background-color: #d17b88;
+    transform: translateY(-2px);
+}
+
+
+
+    
+
+    
